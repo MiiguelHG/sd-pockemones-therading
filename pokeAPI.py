@@ -1,20 +1,5 @@
 import threading
 import requests
-import json
-
-# Diccionario para tener una estructura de los datos del pokemon
-pokemon_dict = {
-    "Nombre": "",
-    "Tipo": 0,
-    "Estadisticas": {
-        "Vida": 0,
-        "Ataque": 0,
-        "Defensa": 0,
-        "Ataque especial": 0,
-        "Defensa especial": 0,
-        "Velocidad": 0
-    },
-}
 
 threading_lock = threading.Lock()
 
