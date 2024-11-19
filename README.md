@@ -33,14 +33,6 @@ Este script de Python utiliza la [PokeAPI](https://pokeapi.co/) para obtener inf
 
 * **Manejo de errores:** El script verifica el código de estado de la respuesta HTTP. Si el código no es 200 (OK), se imprime un mensaje de error.
 
-## Posibles Mejoras
-
-* **Manejo de excepciones más robusto:** Se podría implementar un manejo de excepciones más completo para capturar errores específicos, como problemas de conexión de red.
-* **Configuración del número de hilos:**  Se podría permitir al usuario especificar el número de hilos a utilizar, en lugar de usar un valor fijo de 100.
-* **Paginación:** Para obtener información sobre más de 100 Pokémon, se podría implementar la paginación utilizando los enlaces "next" y "previous" proporcionados por la PokeAPI.
-* **Almacenamiento de datos:**  Se podrían guardar los datos obtenidos en un archivo (CSV, JSON, etc.) para su posterior análisis o uso.
-
-
 ## Ejemplo de Salida
 
 ```
